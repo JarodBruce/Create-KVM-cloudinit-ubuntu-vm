@@ -2,7 +2,7 @@
 cloudinit_iso_name=`date +"%Y%m%d%I%M%S"`
 
 # nameをユーザーに入力させる
-read -p "Enter the name for the virtual machine: " name
+read -p "Enter the name for the vm: " name
 
 # ディスクのコピーとサイズ変更
 cp --sparse=always /var/lib/libvirt/iso/ubuntu-20.04-server-cloudimg-amd64.img /var/lib/libvirt/images/${name}.img
