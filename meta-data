@@ -1,2 +1,2 @@
 instance-id: ubuntu
-local-hostname: ubuntu
+local-hostname: {hostname}
