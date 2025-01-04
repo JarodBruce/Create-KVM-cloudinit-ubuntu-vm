@@ -1,5 +1,5 @@
 # Create-KVM-cloudinit-ubuntu-vm
-## このプログラムはcloudinit isoを使用してkvm上にubunu-serverを立ち上げます
+## cloudinit isoを使用してkvm上にubunu-serverを立てます
 ### 以下のプログラムのインストールを行います。
   - update && upgrade
   - ca-certificates 
